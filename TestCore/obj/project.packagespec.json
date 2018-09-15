@@ -1,0 +1,59 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\Felipe Salinas\\Desktop\\PresUPA-master\\PresUPA-master\\TestCore\\TestCore.csproj",
+    "projectName": "TestCore",
+    "projectPath": "C:\\Users\\Felipe Salinas\\Desktop\\PresUPA-master\\PresUPA-master\\TestCore\\TestCore.csproj",
+    "outputPath": "C:\\Users\\Felipe Salinas\\Desktop\\PresUPA-master\\PresUPA-master\\TestCore\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {
+          "C:\\Users\\Felipe Salinas\\Desktop\\PresUPA-master\\PresUPA-master\\Core\\Core.csproj": {
+            "projectPath": "C:\\Users\\Felipe Salinas\\Desktop\\PresUPA-master\\PresUPA-master\\Core\\Core.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "Microsoft.NET.Test.Sdk": {
+          "target": "Package",
+          "version": "[15.8.0, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        },
+        "xunit": {
+          "target": "Package",
+          "version": "[2.3.1, )"
+        },
+        "xunit.runner.visualstudio": {
+          "target": "Package",
+          "version": "[2.3.1, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

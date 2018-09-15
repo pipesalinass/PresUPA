@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using Core.Models;
 
@@ -41,5 +42,29 @@ namespace Core.Controllers
         /// <param name="rutEmail">RUT o Correo Electronico</param>
         /// <returns>La persona si existe</returns>
         Persona Find(string rutEmail);
+        
+        /// <summary>
+        /// Guarda una cotizacion en el sistema
+        /// </summary>
+        void AgregarCotizacion(Cotizacion cotizacion);
+
+        /// <summary>
+        /// Elimina una cotizacion del sistema
+        /// </summary>
+        void EliminarCotizacion(int id);
+        
+        /// <summary>
+        /// Busca cotizacion segun el criterio, la cotizacion debe estar entre dos fechas
+        /// </summary>
+        /// <param name="criterioDeBusqueda">Criterio de busqueda</param>
+        /// <param name="fechaInicio">Fecha inicio cotizacion</param>
+        /// <param name="fechaTermino">Fecha termino cotizacion</param>
+        /// <returns>Una lista de cotizaciones que cumplan con el criterio de busqueda</returns>
+        IList<Cotizacion> BuscarCotizacion(string criterioDeBusqueda);
+
+        IList<Cotizacion> BuscarCotizacionEntreFechas(string criterioDeBusqueda, DateTime fechaInicio,
+            DateTime fechaTermino);
+        
+
     }
 }

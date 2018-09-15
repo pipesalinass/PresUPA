@@ -1,0 +1,63 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\Felipe Salinas\\Desktop\\PresUPA-master\\PresUPA-master\\Core\\Core.csproj",
+    "projectName": "Core",
+    "projectPath": "C:\\Users\\Felipe Salinas\\Desktop\\PresUPA-master\\PresUPA-master\\Core\\Core.csproj",
+    "outputPath": "C:\\Users\\Felipe Salinas\\Desktop\\PresUPA-master\\PresUPA-master\\Core\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp2.1"
+    ],
+    "frameworks": {
+      "netcoreapp2.1": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp2.1": {
+      "dependencies": {
+        "BCrypt.Net-Core": {
+          "target": "Package",
+          "version": "[1.5.0, )"
+        },
+        "Microsoft.EntityFrameworkCore": {
+          "target": "Package",
+          "version": "[2.1.2, )"
+        },
+        "Microsoft.EntityFrameworkCore.InMemory": {
+          "target": "Package",
+          "version": "[2.1.2, )"
+        },
+        "Microsoft.EntityFrameworkCore.Sqlite": {
+          "target": "Package",
+          "version": "[2.1.2, )"
+        },
+        "Microsoft.NETCore.App": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.1.0, )",
+          "autoReferenced": true
+        },
+        "Newtonsoft.Json": {
+          "target": "Package",
+          "version": "[11.0.2, )"
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}
